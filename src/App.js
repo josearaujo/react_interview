@@ -6,22 +6,15 @@ import {Button} from "react-bootstrap";
 
 function App() {
 
-    const [line, setLine] = useState(false);
-
-    const classNameDiv = line ? "col-sm-12 mb-1" : "col-sm-6 mb-1";
 
     return (
         <>
             <div className="row m-5">
-                <Button onClick={() => setLine(!line)}>{!line ? "Show in Line" : "Show in Column"}</Button>
+                <Button >{"Show in Line"}</Button>
             </div>
             <div className="row m-1">
                 {
-                    remoteDate.map(interfaceObject => {
-                        return <div key={interfaceObject.interfaceId} className={classNameDiv}>
-                            <Container {...interfaceObject}/>
-                        </div>
-                    })
+                    "render component"
                 }
             </div>
         </>

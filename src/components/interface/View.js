@@ -9,31 +9,18 @@ const View = ({min, max, avg, name}) => {
             <Card.Header>{name}</Card.Header>
             <Card.Body>
                 <Card.Title>Min</Card.Title>
-                <Card.Text><b>Value:</b>{min.value}<b> Date:</b>{min.date}</Card.Text>
-                <Card.Title>Max</Card.Title>
-                <Card.Text><b>Value:</b>{max.value}<b> Date:</b>{max.date}</Card.Text>
-                <Card.Title>AVG</Card.Title>
-                <Card.Text><b>Value:</b>{avg.toFixed(2)}</Card.Text>
+                <Card.Text><b>Value:</b>value<b> Date:</b>date</Card.Text>
             </Card.Body>
         </Card>
     );
 }
 
 View.propTypes = {
-    min: PropTypes.shape({
-        value: PropTypes.number,
-        date: PropTypes.string
-    }),
-    max: PropTypes.shape({
-        value: PropTypes.number,
-        date: PropTypes.string
-    }),
-    avg: PropTypes.number,
-    name: PropTypes.string
+
 };
 
 View.defaultProps = {
-    name: "",
+    name: "Name",
     min: {},
     max: {},
     avg: 0
