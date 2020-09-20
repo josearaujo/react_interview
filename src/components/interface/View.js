@@ -28,7 +28,15 @@ View.propTypes = {
         value: PropTypes.number,
         date: PropTypes.string
     }),
-    avg: PropTypes.number
+    avg: PropTypes.number,
+    name: PropTypes.string
+};
+
+View.defaultProps = {
+    name: "",
+    min: {},
+    max: {},
+    avg: 0
 };
 
 export default View;
