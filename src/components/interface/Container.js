@@ -6,7 +6,10 @@ const Container = (props) => {
     return (
         <div/>
         // <View
-        //
+        //     name={props.interfaceId}
+        //     min={min}
+        //     max={max}
+        //     avg={avg}
         // />
     );
 }
