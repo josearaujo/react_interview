@@ -7,6 +7,8 @@ import {Button} from "react-bootstrap";
 function App() {
 
 
+    console.log(remoteDate);
+
     return (
         <>
             <div className="row m-5">
