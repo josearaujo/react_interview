@@ -16,7 +16,9 @@ function App() {
             </div>
             <div className="row m-1">
                 {
-                    "render component"
+                    remoteDate.map(x => {
+                        return <div/>
+                    })
                 }
             </div>
         </>
