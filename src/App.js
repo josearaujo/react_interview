@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import remoteDate from "./bd/data.json";
-import Container from "./components/interface/Container";
+// import Container from "./components/interface/Container";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button} from "react-bootstrap";
 

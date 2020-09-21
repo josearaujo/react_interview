@@ -26,5 +26,3 @@ View.defaultProps = {
     avg: 0
 };
 
-export default View;
-

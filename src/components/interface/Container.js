@@ -1,13 +1,14 @@
 import React from "react";
-import View from "./View";
+// import View from "./View";
 
 const Container = (props) => {
 
     return (
-        <View
+        <div>
 
-        />
+        </div>
+        // <View
+        //
+        // />
     );
 }
-
-export default Container;
